@@ -62,7 +62,7 @@ nav a {
     display: flex;
     justify-content: space-between;
     background-color: #335ff4;
-    padding: 10% 14% 4% 14%;
+    padding: 8% 14% 4% 14%;
 }
 
 #topbar>div:first-of-type {
@@ -105,7 +105,7 @@ nav a {
 }
 
 #topbar>div:last-of-type {
-    width: 43%;
+    width: 40%;
 }
 
 #image-container {
@@ -199,9 +199,12 @@ span {
 }
 
 .social-icons a {
-    color: #335ff4;
     font-size: 1.5rem;
-    margin: 0 0.5rem;
+    margin: 0 0.7rem;
+}
+
+#about-me .social-icons a {
+    color: #335ff4;
 }
 
 /* about-me end */
@@ -223,8 +226,6 @@ span {
 
 
 #services #btn-container button {
-    /* background-color: #335ff4; */
-    /* color: #ecf0f1; */
     border: 2px solid #dfe6e9;
     padding: 0.65rem 1.95rem;
     border-radius: 100px;
@@ -335,7 +336,7 @@ span {
 }
 
 #courses-details .info-box button {
-    padding: 0.8rem 0;
+    padding: 0.6rem 0;
     font-size: 0.9rem;
     font-weight: 600;
     width: 100%;
@@ -416,4 +417,210 @@ span {
 
 #testimonials h4 {
     font-size: 1.55rem;
+}
+
+#testimonial-box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#testimonial-box-container .testimonial-box {
+    width: 31%;
+    background-color: #ffffff;
+    padding: 1.2rem;
+    border-radius: 20px;
+}
+
+#testimonial-box-container .testimonial-box #review {
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+#testimonial-box-container .testimonial-box #testimonial-img {
+    width: 33%;
+    height: 85px;
+    margin: 10px auto;
+    border-style: none;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#testimonial-box-container .testimonial-box #testimonial-img img {
+    width: 100%;
+}
+
+#testimonial-box-container .testimonial-box #testimonial-name {
+    font-weight: 700;
+}
+
+#testimonial-box-container .testimonial-box #testimonial-desig {
+    font-size: 0.9rem;
+}
+
+/* testimonial end*/
+
+/* media sectlion start */
+#media-section {
+    color: #2C3A47;
+}
+
+#media-section h4 {
+    font-size: 1.55rem;
+    margin-bottom: 30px;
+}
+
+#media-section video {
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+/* media section end */
+
+/* app install start*/
+#app-install {
+    margin-top: 40px;
+    background-color: #335ff4;
+    color: #ecf0f1;
+    padding: 60px 16%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    text-align: center;
+}
+
+#app-install p {
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+
+#app-install h2 {
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+}
+
+#app-install button {
+    background-color: #ecf0f1;
+    color: #335ff4;
+    border-style: none;
+    padding: 0.78rem 3.8rem;
+    border-radius: 110px;
+    word-spacing: 0.08rem;
+    letter-spacing: 0.03rem;
+    font-weight: 700;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+#app-install>div:last-of-type {
+    margin-top: 30px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+#app-install>div:last-of-type div {
+    width: 30%;
+}
+
+/* app install end */
+
+/* contact-start */
+#contact {
+    color: #2C3A47;
+}
+
+#contact h4 {
+    font-size: 1.40rem;
+}
+
+#contact-box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#contact-box-container .contact-box {
+    width: 33%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+#contact-box-container .contact-box i {
+    color: #335ff4;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+#contact-box-container .contact-box p {
+    font-size: 0.95rem;
+    color: #70787a;
+    margin-bottom: 5px;
+}
+
+#contact-box-container .contact-box h4 {
+    font-size: 0.95rem;
+}
+
+#contact-box-container .contact-box h4 a {
+    text-decoration: none;
+    color: #2C3A47;
+}
+
+/* contact end */
+
+/* footer start */
+footer {
+    background-color: #335ff4;
+    margin-top: 30px;
+    text-align: center;
+    padding: 25px 14%;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+footer h2 a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 2.1rem;
+}
+
+footer .social-icons a {
+    color: #ecf0f1;
+}
+
+footer #store {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer #store div {
+    width: 13%;
+    margin: 0 7px;
+}
+
+footer #store div img {
+    width: 100%;
+}
+
+footer #copyright {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    color: #ecf0f1;
+    font-size: 0.9rem;
+}
+
+footer #copyright div {
+    margin: 0 10px;
 }
