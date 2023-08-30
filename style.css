@@ -9,6 +9,10 @@
     font-family: 'Manrope', sans-serif;
 }
 
+body {
+    background-color: #e5ecee;
+}
+
 /* navbar start */
 
 nav {
@@ -216,11 +220,13 @@ span {
     margin-bottom: 1rem;
 }
 
+
+
 #services #btn-container button {
-    background-color: #335ff4;
-    color: #ecf0f1;
-    border-style: none;
-    padding: 0.7rem 1.95rem;
+    /* background-color: #335ff4; */
+    /* color: #ecf0f1; */
+    border: 2px solid #dfe6e9;
+    padding: 0.65rem 1.95rem;
     border-radius: 100px;
     letter-spacing: 0.035rem;
     font-weight: 600;
@@ -229,7 +235,22 @@ span {
     cursor: pointer;
 }
 
-#services #services-details-container #community-details {
+#services #btn-container button:first-of-type {
+    background-color: #335ff4;
+    color: #ecf0f1;
+}
+
+#services-details-container>div:nth-of-type(2) {
+    display: none;
+}
+
+#services-details-container>div:nth-of-type(3) {
+    display: none;
+}
+
+/* community details */
+
+#community-details {
     text-align: left;
     margin-top: 2rem;
     display: flex;
@@ -237,12 +258,12 @@ span {
     align-items: center;
 }
 
-#services #services-details-container #community-details>div:first-of-type {
+#community-details>div:first-of-type {
     width: 45%;
     font-weight: 500;
 }
 
-#services #services-details-container #community-details>div:first-of-type h3 {
+#community-details>div:first-of-type h3 {
     font-family: 'DM Serif Display', serif;
     font-family: 'Manrope', sans-serif;
     font-family: 'Roboto Slab', serif;
@@ -250,16 +271,16 @@ span {
     margin-bottom: 0.7rem;
 }
 
-#services #services-details-container #community-details>div:first-of-type p {
+#community-details>div:first-of-type p {
     margin-bottom: 0.8rem;
 }
 
-#services #services-details-container #community-details>div:first-of-type li {
+#community-details>div:first-of-type li {
     margin-bottom: 0.7rem;
     list-style: none;
 }
 
-#services #services-details-container #community-details>div:first-of-type button {
+#community-details>div:first-of-type button {
     background-color: #335ff4;
     color: #ecf0f1;
     border-style: none;
@@ -272,12 +293,127 @@ span {
     cursor: pointer;
 }
 
-#services #services-details-container #community-details>div:last-of-type {
+#community-details>div:last-of-type {
     width: 45%;
 }
 
-#services #services-details-container #community-details>div:last-of-type img {
+#community-details>div:last-of-type img {
     width: 85%;
     float: right;
     border-radius: 20px;
+}
+
+/* courses details */
+
+#courses-details {
+    text-align: left;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#courses-details .info-box {
+    width: 31%;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+
+#courses-details .info-box img {
+    width: 100%;
+}
+
+#courses-details .info-box h5 {
+    font-size: 1.05rem;
+    margin: 0.7rem 0;
+}
+
+#courses-details .info-box p {
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+}
+
+#courses-details .info-box button {
+    padding: 0.8rem 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    width: 100%;
+    background-color: #335ff4;
+    color: #ecf0f1;
+    border-style: none;
+    border-radius: 100px;
+    letter-spacing: 0.035rem;
+    cursor: pointer;
+}
+
+/* consultation details */
+
+#consultation-details {
+    text-align: left;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#consultation-details .consultation-box {
+    width: 31%;
+    background-color: #ffffff;
+    padding: 1.1rem;
+    border-radius: 20px;
+}
+
+#consultation-details .consultation-box>div:first-of-type .fa-phone {
+    font-size: 1.3rem;
+    color: #335ff4;
+    padding: 8px;
+    background: #dfe6e9;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#consultation-details .consultation-box>div:first-of-type iconify-icon {
+    font-size: 1.2rem;
+    padding: 8px;
+    background: #dfe6e9;
+    border-radius: 43%;
+    cursor: pointer;
+}
+
+#consultation-details .consultation-box h4 {
+    font-size: 1.05rem;
+    margin: 0.8rem 0;
+}
+
+#consultation-details .consultation-box>div:last-of-type {
+    font-size: 13.5px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.3rem;
+}
+
+#consultation-details .consultation-box button {
+    padding: 0.6rem 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 100%;
+    background-color: #335ff4;
+    color: #ecf0f1;
+    border-style: none;
+    border-radius: 100px;
+    letter-spacing: 0.035rem;
+    cursor: pointer;
+}
+
+/* services end */
+
+/* testimonials start */
+#testimonials {
+    color: #2C3A47;
+}
+
+#testimonials h4 {
+    font-size: 1.55rem;
 }
