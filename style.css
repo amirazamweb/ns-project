@@ -33,7 +33,7 @@ nav>div:first-of-type a {
 }
 
 nav>div:last-of-type {
-    width: 25%;
+    width: 27%;
     font-size: 0.9rem;
     display: flex;
     justify-content: space-between;
@@ -53,6 +53,11 @@ nav a {
 }
 
 /* navbar end */
+
+/* mobilenavbar*/
+#mobile-navbar {
+    display: none;
+}
 
 /* main start */
 
@@ -166,7 +171,7 @@ span {
 
 /* about-me start */
 
-#about {
+#about-me {
     color: #2C3A47;
 }
 

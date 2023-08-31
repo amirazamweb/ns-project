@@ -1,0 +1,90 @@
+@media only screen and (max-width: 600px) {
+
+    /* navbar */
+    nav {
+        display: none;
+    }
+
+    #mobile-navbar {
+        display: block;
+    }
+
+    #mobile-navbar #visible-bar {
+        display: flex;
+        padding: 20px 8%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #mobile-navbar #logo {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    #mobile-navbar #logo a {
+        text-decoration: none;
+        color: #335ff4;
+    }
+
+    #mobile-navbar #menu-icon {
+        cursor: pointer;
+        color: #335ff4;
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    #hidden-menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #335ff4;
+        padding: 20px 10%;
+        display: none;
+    }
+
+    #hidden-menu a {
+        text-decoration: none;
+        color: #e5ecee;
+    }
+
+    #hidden-menu>div:first-of-type {
+        font-size: 27px;
+        font-weight: 700;
+    }
+
+    #hidden-menu .menu-type {
+        font-size: 12px;
+        margin: 10px 0;
+        font-weight: 600;
+    }
+
+    #close-menu {
+        position: absolute;
+        top: 8px;
+        right: 17px;
+        color: #e5ecee;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    /* topbar */
+
+    #topbar {
+        flex-direction: column;
+        padding: 10px 6%;
+    }
+
+
+
+    #featured,
+    #about-me,
+    #services,
+    #testimonials,
+    #media-section,
+    #app-install,
+    #contact,
+    footer {
+        display: none;
+    }
+}

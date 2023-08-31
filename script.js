@@ -15,3 +15,14 @@ for (let i = 0; i < servicesBtn.length; i++) {
     })
 }
 
+// show mobile menu
+document.querySelector('#menu-icon').addEventListener('click', () => {
+    document.querySelector('#hidden-menu').style.display = 'block'
+})
+
+// close mobile menu
+document.querySelector('#close-menu').addEventListener('click', () => {
+    document.querySelector('#hidden-menu').style.display = 'none'
+})
+
+
