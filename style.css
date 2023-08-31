@@ -134,6 +134,10 @@ nav a {
     border-radius: 25px;
 }
 
+#topbar-btn-mobile-view {
+    display: none;
+}
+
 /* topbar end */
 
 /* featured start */
@@ -227,8 +231,6 @@ span {
     margin-top: 1.3rem;
     margin-bottom: 1rem;
 }
-
-
 
 #services #btn-container button {
     border: 2px solid #dfe6e9;
@@ -463,6 +465,10 @@ span {
 
 #testimonial-box-container .testimonial-box #testimonial-desig {
     font-size: 0.9rem;
+}
+
+#scroll-icons {
+    display: none;
 }
 
 /* testimonial end*/

@@ -25,4 +25,36 @@ document.querySelector('#close-menu').addEventListener('click', () => {
     document.querySelector('#hidden-menu').style.display = 'none'
 })
 
+// tesctimonial scrolling fro mobile view
+
+let lesser = document.querySelector('.fa-less-than');
+let greater = document.querySelector('.fa-greater-than');
+let testimonilasContainer = document.querySelector('#testimonial-box-container');
+
+let counter = 0;
+// lesser click
+lesser.addEventListener('click', () => {
+    counter--;
+    if (counter < 0) {
+        counter = 2;
+    }
+    for (let i = 0; i < testimonilasContainer.children.length - 1; i++) {
+        testimonilasContainer.children[i].style.display = 'none'
+    }
+    testimonilasContainer.children[counter].style.display = 'block'
+})
+// greater click
+greater.addEventListener('click', () => {
+    console.log('greater');
+    counter++;
+    if (counter > 2) {
+        counter = 0;
+    }
+
+    for (let i = 0; i < testimonilasContainer.children.length - 1; i++) {
+        testimonilasContainer.children[i].style.display = 'none'
+    }
+    testimonilasContainer.children[counter].style.display = 'block'
+})
+
 
