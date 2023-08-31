@@ -127,7 +127,7 @@
     /* featured, */
 
     #featured h2 {
-        font-size: 1.65rem;
+        font-size: 1.60rem;
         margin: 7px 0;
     }
 
@@ -334,7 +334,7 @@
     }
 
     footer #store div {
-        width: 25%;
+        width: 30%;
     }
 
     footer hr {
