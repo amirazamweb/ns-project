@@ -513,17 +513,25 @@ span {
     margin-bottom: 25px;
 }
 
+#app-install #desktop-view {
+    padding: 0.78rem 3.5rem;
+}
+
 #app-install button {
     background-color: #ecf0f1;
     color: #335ff4;
     border-style: none;
-    padding: 0.78rem 3.8rem;
+    padding: 0.78rem 0;
     border-radius: 110px;
     word-spacing: 0.08rem;
     letter-spacing: 0.03rem;
     font-weight: 700;
     font-size: 0.85rem;
     cursor: pointer;
+}
+
+#app-install #mobile-view {
+    display: none;
 }
 
 #app-install>div:last-of-type {
@@ -534,7 +542,7 @@ span {
 }
 
 #app-install>div:last-of-type div {
-    width: 30%;
+    width: 40%;
 }
 
 /* app install end */
@@ -557,7 +565,6 @@ span {
 
 #contact-box-container .contact-box {
     width: 33%;
-    /* background-color: red; */
     display: flex;
     align-items: center;
     text-align: left;
@@ -567,11 +574,14 @@ span {
     color: #335ff4;
     font-size: 2rem;
     margin-right: 20px;
+    padding: 7px;
+    background-color: #dfe6e9;
+    border-radius: 50%;
 }
 
 #contact-box-container .contact-box p {
     font-size: 0.95rem;
-    color: #70787a;
+    color: #adb1b1;
     margin-bottom: 5px;
 }
 
@@ -632,6 +642,19 @@ footer #copyright {
     font-size: 0.9rem;
 }
 
-footer #copyright div {
-    margin: 0 10px;
+footer #copyright>div {
+    margin: 0 15px;
+}
+
+footer #copyright>div:last-of-type {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer #copyright>div:last-of-type div {
+    margin: 0 15px;
+}
+
+footer hr {
+    display: none;
 }

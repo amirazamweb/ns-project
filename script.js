@@ -45,7 +45,6 @@ lesser.addEventListener('click', () => {
 })
 // greater click
 greater.addEventListener('click', () => {
-    console.log('greater');
     counter++;
     if (counter > 2) {
         counter = 0;
